@@ -104,7 +104,7 @@ main {
     align-items: center;
     width: 1920px;
     height: 400px;
-    background-image: url('imgs/backgroundkorg.png');
+    background-image: url('../imgs/backgroundkorg.png');
     background-size: cover;
     /*Заполняет весь элемент, сохраняя пропорции*/
     background-position: center;
