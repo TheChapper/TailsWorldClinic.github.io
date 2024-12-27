@@ -1,0 +1,74 @@
+header {
+    margin-bottom: 60px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+/* Стили для блоков */
+.about-clinic {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.about-clinic>div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #FFE4CA;
+}
+
+.opening-date,
+.approach,
+.standards,
+.team,
+.facilities,
+.achievements {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.opening-date p,
+.approach p,
+.standards p,
+.team p,
+.facilities p,
+.achievements p{
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.standards ul ,
+.achievements ul {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
